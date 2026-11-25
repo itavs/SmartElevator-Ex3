@@ -6,11 +6,11 @@ Source: `I2SE_Exe3.docx.pdf`, page 2, ToDo; supplied and reviewed on 2026-11-25.
 
 This roadmap supersedes the former eight-stage lecture-summary plan. Tasks below are original English paraphrases preserving the official numbering, sequence and meaning. They are not quotations or a substitute for the private handout. Stage N means official Task N; source review is preparatory work, not an additional assignment task.
 
-**Current authorization:** the owner approved completing Task 1, publication cleanup, one initial commit, creation of the public `itavs/SmartElevator-Ex3` repository and pushing `main`. This does not authorize Task 2 or later, implementation or dependency installation.
+**Current authorization:** the owner authorized Task 2 closure after verification and staging of exactly its seven documentation files. A-01 through A-05 remain approved project conventions; A-06, physical parameters, latency and scoped exceptions remain open. Tasks 3-12, implementation, dependency installation, commits and pushes are not authorized.
 
 **Workflow:** follow Tasks 1-12 in numerical order, with owner approval before starting each task. Work top-down through problem definition, HLD, LLD and allocation design before implementation. The official order places the testing-strategy deliverable at Task 9; routine verification of an approved earlier task does not advance or complete Task 9.
 
-**Status:** Task 1 is complete as local repository construction; owner-authorized commit and public publication are being finalized, with final verification reported separately. Tasks 2-12 remain pending and unapproved. Reviewing the PDF and documenting requirements does not complete the problem-definition or design tasks.
+**Status:** Task 1 is complete, including publication at `https://github.com/itavs/SmartElevator-Ex3`. Local and remote `main` were verified at initial commit `786d9b5c2f4c06e476a81fd6f11b6ff93a2fed98`. Task 2 is completed within the documented scope in `docs/OPTIMIZATION_PROBLEM.md`, with its documentation prepared for staged review; Tasks 3-12 remain pending and unapproved. Reviewing the PDF and documenting requirements does not complete the problem-definition or design tasks.
 
 ## Reading the task entries
 
@@ -29,7 +29,7 @@ Establish a repository dedicated to this assignment.
 
 **Completion criteria (proposed project gate):** After separate authorization: the repository root resolves to this directory; existing files remain intact; repository status is inspected and reported. No commit, remote or publication is required by this local completion gate.
 
-**Status:** Completed - independent local repository on `main` verified; commit/publication verification is part of the authorized Task 1 handoff.
+**Status:** Completed - public repository `https://github.com/itavs/SmartElevator-Ex3`, initial commit `786d9b5c2f4c06e476a81fd6f11b6ff93a2fed98`, local/remote `main` verified equal and working tree clean at the Task 1 handoff. Private course sources remain excluded.
 
 ## Task 2 - Define the optimization problem
 
@@ -41,7 +41,7 @@ Formulate the optimization problem for choosing an elevator when a passenger sup
 
 **Completion criteria (proposed project gate):** The owner can review the problem, intended metric and assumptions without implementation. Unspecified rules are identified rather than invented.
 
-**Status:** Pending; requires task-specific approval.
+**Status:** Completed - `docs/OPTIMIZATION_PROBLEM.md` defines the objective, online boundary, inputs/outputs and approved A-01 through A-05. A-06, latency and scoped exceptions remain open. The owner authorized documentation staging only; commit approval is pending and Task 3 is not authorized.
 
 ## Task 3 - High-level design
 
@@ -185,7 +185,7 @@ This table preserves useful context without retaining the former execution order
 - Time-based requests and their JSON-driven auto-generator are explicit in Task 7.
 - An allocation GUI is required in Task 8; its design is open. A 2D view and speed controls are lecture recommendations, not mandated designs.
 - ESP32 is named in Task 3; Task 11 requires an ESP allocation implementation and BLE or WiFi communication. The protocol and board details are open.
-- Page 1 defines waiting time as the interval from the call to arrival at the destination. Exact aggregation and edge-case accounting remain to be defined in Task 2.
+- Page 1 defines waiting time as the interval from the call to arrival at the destination. Task 2 defines the unweighted fixed-cohort sum under approved project convention A-03; exceptional edge-case handling and physical parameters remain open.
 - The page-1 discussion of sensors and AI provides context; it does not establish an explicit obligation to implement all sensors or machine learning.
 - Language, deadline, grading rubric, submission format and demonstration format are not specified. The Guidelines heading on page 2 is empty.
 

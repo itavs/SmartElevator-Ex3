@@ -42,7 +42,7 @@ Never invent deadlines, grading criteria, mandated languages, sensor implementat
 
 ## Current authorization and status
 
-Task 1 repository construction is complete: an independent local repository on `main` has been verified. The owner has authorized publication cleanup, reuse of the consistently verified prior commit identity in local Git configuration only, one initial commit, creation of the public `itavs/SmartElevator-Ex3` repository and pushing `main`. Final commit/publication verification is reported in the execution handoff. Tasks 2-12, application implementation, dependencies and hardware work remain unapproved. Stop after Task 1 and request approval before Task 2.
+Task 1 is complete, including publication of `itavs/SmartElevator-Ex3` and verification that local/remote `main` matched initial commit `786d9b5c2f4c06e476a81fd6f11b6ff93a2fed98`. The owner authorized Task 2 documentation and necessary status updates. `docs/OPTIMIZATION_PROBLEM.md` records completed Task 2 within its documented problem-definition scope. The owner explicitly approved initial project conventions A-01 through A-05; these are separate from PDF requirements. A-06, physical parameters, latency and exceptional handling remain open. Tasks 3-12, HLD/LLD, allocation-method design, implementation, dependencies and hardware work remain unapproved. The owner authorized staging exactly the seven Task 2 documentation files after final verification. Do not commit or push. Stop at the staged Task 2 review gate; Task 3 remains unauthorized.
 
 `docs/LECTURE_NOTES.md` must remain on disk but outside Git tracking. Official PDFs and local course references are excluded through `.gitignore`. Preserve private files and do not force-add ignored material.
 
@@ -57,7 +57,7 @@ Task 1 repository construction is complete: an independent local repository on `
 
 ## Onboarding and progress reporting
 
-1. Read all existing project documents, especially README, roadmap, requirements inventory, lecture notes, decisions and architecture sketch.
+1. Read all existing project documents, especially README, roadmap, requirements inventory, lecture notes, decisions, Task 2 specification and architecture sketch.
 2. Inspect existing files and Git state. Read the official PDF when available before analyzing its requirements.
-3. Report current authorization, source limitations and next task in Hebrew. Do not restart Task 1 after its verified handoff or assume permission to execute Task 2.
+3. Report current authorization, source limitations and next task in Hebrew. Do not restart Task 1 after its verified handoff or infer approval beyond Task 2 documentation and its current review gate.
 4. For each approved scope, report files changed, decisions/proposals, actual checks and results, remaining questions and the next approval gate. Mark untested claims explicitly.
